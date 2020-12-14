@@ -7,7 +7,8 @@ import socks
 
 from requests.exceptions import HTTPError
 
-from modules.analyzer import LinkTree
+#from modules.analyzer import LinkTree
+from ete3 import LinkTree #there is path.env of ete3 errors in the module.
 from modules.color import color
 from modules.link_io import LinkIO
 from modules.link import LinkNode
